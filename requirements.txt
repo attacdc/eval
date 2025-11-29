@@ -3,3 +3,6 @@ fire
 numpy
 openai
 aiohttp
+flask
+flask-cors
+python-dotenv
