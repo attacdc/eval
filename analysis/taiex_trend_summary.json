@@ -1,0 +1,77 @@
+{
+  "symbol": "^TWII",
+  "start_date": "2010-01-01",
+  "forecast_horizon_days": 5,
+  "metrics": {
+    "holdout_accuracy": 0.5379581151832461,
+    "holdout_balanced_accuracy": 0.4881609990092588,
+    "holdout_precision": 0.5905923344947736,
+    "holdout_recall": 0.7417943107221007,
+    "cross_val_accuracy": 0.5111984282907661,
+    "cross_val_balanced_accuracy": 0.48553788254783203
+  },
+  "latest_signal": {
+    "latest_date": "2025-11-28",
+    "latest_price": 27626.48046875,
+    "probability_bullish": 0.45997901879426895,
+    "classification": "Range / Neutral",
+    "ma5_vs_ma20": -0.00955016129704711,
+    "ma20_vs_ma60": 0.028027259566908436,
+    "rsi": 47.43774805335899,
+    "atr_pct": 0.01720049121478683
+  },
+  "feature_importance": [
+    [
+      "volatility_20d",
+      0.1506133865422462
+    ],
+    [
+      "atr_pct",
+      0.14289344248017097
+    ],
+    [
+      "macd_signal",
+      0.11992179891240103
+    ],
+    [
+      "ma20_ma60_ratio",
+      0.11059017124742336
+    ],
+    [
+      "volatility_10d",
+      0.09166908232420892
+    ],
+    [
+      "ma5_ma20_ratio",
+      0.08856080632275766
+    ],
+    [
+      "ema12_ema26_spread",
+      0.07193490605356931
+    ],
+    [
+      "return_10d",
+      0.05979072599758646
+    ],
+    [
+      "return_5d",
+      0.058245678010252794
+    ],
+    [
+      "volume_change_5d",
+      0.04387150013626832
+    ],
+    [
+      "rsi_14",
+      0.031041245964507934
+    ],
+    [
+      "return_1d",
+      0.03086725600860699
+    ]
+  ],
+  "test_period": {
+    "start": "2022-10-03",
+    "end": "2025-11-28"
+  }
+}
