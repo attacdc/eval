@@ -3,3 +3,5 @@ fire
 numpy
 openai
 aiohttp
+requests
+pandas
